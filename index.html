@@ -2,7 +2,7 @@
 <html lang="es-MX">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#68422b">
   <meta name="description" content="El Gallito Mañanero: menú de desayunos, tortas, guisados y bebidas. Consulta nuestros platillos, ingredientes, precios y sucursales.">
   <title>El Gallito Mañanero · Menú</title>
@@ -16,7 +16,7 @@
   <div class="sticky-header">
     <header class="brand-header">
       <a class="brand" href="#inicio" aria-label="El Gallito Mañanero, inicio"><img src="assets/gallito-logo.png" width="1219" height="1290" alt="Logo de El Gallito Mañanero"><span class="brand-name">el gallito mañanero<small>menú</small></span></a>
-      <a class="branches-link" href="#sucursales">sucursales</a>
+      <a class="branches-link" id="branches-link" href="https://www.google.com/maps/search/sucursales+gallito+ma%C3%B1anero/@28.6767329,-106.138916,12z?entry=ttu&amp;g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Ver sucursales en Google Maps (se abre en una pestaña nueva)"><svg class="pin-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.6A2.6 2.6 0 1 1 12 6.4a2.6 2.6 0 0 1 0 5.2z"/></svg><span>sucursales</span></a>
     </header>
     <nav class="category-bar" aria-label="Categorías del menú"><div class="category-inner">
       <a href="#desayunos" data-section="desayunos" aria-current="location">desayunos</a>
@@ -30,7 +30,6 @@
     <div class="menu-title"><h1>nuestro menú</h1></div>
     <section id="desayunos" class="menu-section green" aria-labelledby="heading-desayunos">
       <div class="section-heading"><span class="heading-line"></span><h2 id="heading-desayunos">desayunos</h2><span class="heading-line"></span></div>
-      
       <div class="paper"><div class="menu-list">
         <article class="menu-item">
           <div class="item-heading"><h3>Huevos estrellados, divorciados o a la mexicana</h3><span class="item-price">$151</span></div>
@@ -40,9 +39,14 @@
           <div class="item-heading"><h3>Platillo saludable</h3><span class="item-price">$151</span></div>
           <p>4 claras revueltas con nopales, ensalada verde y frijoles graneados.</p>
         </article>
-        <article class="menu-item">
+        <article class="menu-item has-dish-photo">
           <div class="item-heading"><h3>Huevos rancheros; revueltos con chorizo, jamón, tocino, frijoles graneados, papas y cebolla, o nopales</h3><span class="item-price">$173</span></div>
           <p>Acompañados de guisado al gusto, o chilaquiles verdes o rojos y frijoles.</p>
+          <div class="dish-media">
+            <button type="button" class="dish-photo-btn" data-lightbox="assets/platillos/huevos-rancheros.jpg" data-caption="Huevos rancheros" aria-label="Ver foto de Huevos rancheros">
+              <img src="assets/platillos/huevos-rancheros.jpg" width="1280" height="852" alt="Huevos rancheros con frijoles" loading="eager" decoding="async">
+            </button>
+          </div>
         </article>
         <article class="menu-item signature">
           <div class="item-heading"><h3>Huevos estrellados con nuestra jugosa arrachera y frijolitos</h3><span class="item-price">$189</span></div>
@@ -52,17 +56,28 @@
           <div class="item-heading"><h3>Huevos revueltos con machaca a la mexicana; o con queso, pimiento, jamón y champiñones</h3><span class="item-price">$173</span></div>
           <p>Acompañados de guisado al gusto, o chilaquiles verdes o rojos y frijoles.</p>
         </article>
-        <article class="menu-item signature">
+        <article class="menu-item signature has-dish-photo">
           <div class="item-heading"><h3>Omelette de queso relleno con chicharrón de la Ramos</h3><span class="item-price">$189</span></div>
-          
+          <p>Delicioso omelette doradito y relleno con chicharrón de la Ramos.</p>
+          <div class="dish-media">
+            <button type="button" class="dish-photo-btn" data-lightbox="assets/platillos/omelette-chicharron.jpg" data-caption="Omelette de queso relleno con chicharrón de la Ramos" aria-label="Ver foto de Omelette con chicharrón de la Ramos">
+              <img src="assets/platillos/omelette-chicharron.jpg" width="1000" height="1000" alt="Omelette de queso relleno con chicharrón de la Ramos" loading="eager" decoding="async">
+              
+            </button>
+          </div>
         </article>
         <article class="menu-item signature">
           <div class="item-heading"><h3>Omelette relleno de nuestra jugosa arrachera con queso</h3><span class="item-price">$189</span></div>
           
         </article>
-        <article class="menu-item">
-          <div class="item-heading"><h3>Huevos al gusto</h3><span class="item-price">$173</span></div>
-          <p>Acompañados de chile relleno, lomo, machaca o deshebrada natural.</p>
+        <article class="menu-item has-dish-photo">
+          <div class="item-heading"><h3>Huevos revueltos con chorizo + guisado al gusto</h3><span class="item-price">$173</span></div>
+          <p>Acompañados de guisado al gusto, o chilaquiles verdes o rojos y frijoles.</p>
+          <div class="dish-media">
+            <button type="button" class="dish-photo-btn" data-lightbox="assets/platillos/huevos-revueltos-con-chorizo.jpg" data-caption="Huevos revueltos con chorizo + guisado al gusto" aria-label="Ver foto de Huevos revueltos con chorizo + guisado al gusto">
+              <img src="assets/platillos/huevos-revueltos-con-chorizo.jpg" width="1280" height="852" alt="Huevos revueltos con chorizo y guisado al gusto" loading="eager" decoding="async">
+            </button>
+          </div>
         </article>
         <article class="menu-item">
           <div class="item-heading"><h3>Enmoladas</h3><span class="item-price">$177</span></div>
@@ -107,9 +122,15 @@
       <div class="section-heading"><span class="heading-line"></span><h2 id="heading-tortas">nuestras tortas</h2><span class="heading-line"></span></div>
       <p class="section-intro">y algo más…</p>
       <div class="paper"><div class="menu-list">
-        <article class="menu-item">
+        <article class="menu-item has-dish-photo">
           <div class="item-heading"><h3>Torta de huevo con chorizo</h3><span class="item-price">$109</span></div>
           <p>Con mayonesa.</p>
+          <div class="dish-media">
+            <button type="button" class="dish-photo-btn" data-lightbox="assets/platillos/torta-de-huevo-con-chorizo.jpg" data-caption="Torta de huevo con chorizo" aria-label="Ver foto de Torta de huevo con chorizo">
+              <img src="assets/platillos/torta-de-huevo-con-chorizo.jpg" width="1280" height="852" alt="Torta de huevo con chorizo" loading="eager" decoding="async">
+              
+            </button>
+          </div>
         </article>
         <article class="menu-item">
           <div class="item-heading"><h3>Torta de huevo con machaca</h3><span class="item-price">$109</span></div>
@@ -139,9 +160,15 @@
           <div class="item-heading"><h3>Torta de barbacoa</h3><span class="item-price">$127</span></div>
           <p>Lechuga, tomate, cebolla y cilantro.</p>
         </article>
-        <article class="menu-item">
+        <article class="menu-item has-dish-photo">
           <div class="item-heading"><h3>Torta de chilaquiles verdes o rojos</h3><span class="item-price">$127</span></div>
           <p>Frijoles, cebolla morada, crema, queso y aguacate.</p>
+          <div class="dish-media">
+            <button type="button" class="dish-photo-btn" data-lightbox="assets/platillos/torta-de-chilaquiles.jpg" data-caption="Torta de chilaquiles verdes o rojos" aria-label="Ver foto de Torta de chilaquiles">
+              <img src="assets/platillos/torta-de-chilaquiles.jpg" width="852" height="1280" alt="Torta de chilaquiles verdes o rojos" loading="eager" decoding="async">
+              
+            </button>
+          </div>
         </article>
         <article class="menu-item">
           <div class="item-heading"><h3>Torta especial de chilaquiles con huevo estrellado</h3><span class="item-price">$144</span></div>
@@ -194,32 +221,31 @@
       <div class="paper guisos-paper"><table class="guisos-table"><caption class="sr-only">Precios de guisados en tacos, burritos y montados, en pesos mexicanos.</caption>
           <thead><tr><th scope="col">guisado</th><th scope="col">taco <small>c/u</small></th><th scope="col">burrito</th><th scope="col">montado</th></tr></thead>
           <tbody>
-            <tr><th scope="row"><span>Asado rojo o verde</span></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Chicharrón</span></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Deshebrada roja o verde</span></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Papas con chorizo</span></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Pasado</span></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Rajas con queso</span></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Picadillo</span></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Bistec ranchero</span></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Costilla verde o en salsa morita</span></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Chicharrón de la Ramos</span><small>Con frijol graneado.</small></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Chile relleno</span></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price">$89</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Deshebrada natural</span><small>Mayonesa, lechuga, tomate y aguacate.</small></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Lomo</span><small>Mayonesa, lechuga, tomate y aguacate.</small></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Barbacoa</span></th><td class="guiso-price">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Frijoles con queso</span></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price">$69</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Huevo con chorizo</span><small>Con mayonesa.</small></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price">$79</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Huevo con machaca</span><small>Con mayonesa.</small></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price">$89</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Huevo a la mexicana</span><small>Con mayonesa.</small></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price">$79</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Huevo con papas y cebolla</span><small>Con mayonesa.</small></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price">$79</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
-            <tr><th scope="row"><span>Huevo con jamón</span><small>Con mayonesa.</small></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price">$79</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr class="has-guiso-photo"><th scope="row"><span class="guiso-title">Asado rojo o verde</span><div class="dish-media guiso-media"><button type="button" class="dish-photo-btn" data-lightbox="assets/platillos/asado-rojo-o-verde.jpg" data-caption="Asado rojo o verde" aria-label="Ver foto de Asado rojo o verde"><img src="assets/platillos/asado-rojo-o-verde.jpg" width="1280" height="852" alt="Asado rojo o verde" loading="eager" decoding="async"></button></div></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Chicharrón</span></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Deshebrada roja o verde</span></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr class="has-guiso-photo"><th scope="row"><span class="guiso-title">Papas con chorizo</span><div class="dish-media guiso-media"><button type="button" class="dish-photo-btn" data-lightbox="assets/platillos/papas-con-chorizo.jpg" data-caption="Papas con chorizo" aria-label="Ver foto de Papas con chorizo"><img src="assets/platillos/papas-con-chorizo.jpg" width="1000" height="1000" alt="Papas con chorizo" loading="eager" decoding="async"></button></div></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Pasado</span></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Rajas con queso</span></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Picadillo</span></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Bistec ranchero</span></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Costilla verde o en salsa morita</span></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Chicharrón de la Ramos</span><small>Con frijol graneado.</small></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr class="has-guiso-photo"><th scope="row"><span class="guiso-title">Chile relleno</span><div class="dish-media guiso-media"><button type="button" class="dish-photo-btn" data-lightbox="assets/platillos/chile-relleno.jpg" data-caption="Chile relleno" aria-label="Ver foto de Chile relleno"><img src="assets/platillos/chile-relleno.jpg" width="1000" height="1000" alt="Chile relleno" loading="eager" decoding="async"></button></div></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price" data-label="burrito">$89</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Deshebrada natural</span><small>Mayonesa, lechuga, tomate y aguacate.</small></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Lomo</span><small>Mayonesa, lechuga, tomate y aguacate.</small></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Barbacoa</span></th><td class="guiso-price" data-label="taco">$39</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Frijoles con queso</span></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price" data-label="burrito">$69</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Huevo con chorizo</span><small>Con mayonesa.</small></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price" data-label="burrito">$79</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Huevo con machaca</span><small>Con mayonesa.</small></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price" data-label="burrito">$89</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Huevo a la mexicana</span><small>Con mayonesa.</small></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price" data-label="burrito">$79</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Huevo con papas y cebolla</span><small>Con mayonesa.</small></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price" data-label="burrito">$79</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
+            <tr><th scope="row"><span>Huevo con jamón</span><small>Con mayonesa.</small></th><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td><td class="guiso-price" data-label="burrito">$79</td><td class="not-listed"><span aria-label="Sin precio en el menú">—</span></td></tr>
           </tbody>
         </table></div>
     </section>
     <section id="bebidas" class="menu-section red" aria-labelledby="heading-bebidas">
       <div class="section-heading"><span class="heading-line"></span><h2 id="heading-bebidas">bebidas</h2><span class="heading-line"></span></div>
-      
       <div class="paper"><div class="menu-list">
         <article class="menu-item">
           <div class="item-heading"><h3>Café americano</h3><span class="item-price">$59</span></div>
@@ -293,9 +319,15 @@
           <div class="item-heading"><h3>Licuado de fresa</h3><span class="item-price">$59</span></div>
           
         </article>
-        <article class="menu-item">
+        <article class="menu-item has-dish-photo">
           <div class="item-heading"><h3>Agua del día</h3><span class="item-price">$49</span></div>
-          
+          <p>Aguas frescas naturales preparadas diariamente.</p>
+          <div class="dish-media">
+            <button type="button" class="dish-photo-btn" data-lightbox="assets/platillos/aguas-naturales.jpg" data-caption="Aguas naturales" aria-label="Ver foto de Aguas naturales">
+              <img src="assets/platillos/aguas-naturales.jpg" width="852" height="1280" alt="Aguas frescas naturales del día" loading="eager" decoding="async">
+              
+            </button>
+          </div>
         </article>
       </div></div>
     </section>
@@ -303,7 +335,7 @@
   </main>
   <footer id="sucursales" aria-labelledby="branches-heading">
     <div class="footer-inner">
-      <div class="footer-top"><img src="assets/gallito-logo.png" width="1219" height="1290" alt="El Gallito Mañanero" loading="lazy"><div><span class="footer-kicker">te esperamos en nuestras</span><h2 id="branches-heading">sucursales</h2></div><p class="events-note">pregunta por<br> nuestros eventos</p></div>
+      <div class="footer-top"><img src="assets/gallito-logo.png" width="1219" height="1290" alt="El Gallito Mañanero" loading="eager"><div><span class="footer-kicker">te esperamos en nuestras</span><h2 id="branches-heading">sucursales</h2></div><p class="events-note">pregunta por<br> nuestros eventos</p></div>
       <div class="branches-grid">
         <div class="branch"><h3>avenida Cuauhtémoc</h3><a href="tel:+526144110613" aria-label="Llamar a sucursal avenida Cuauhtémoc, 614 411 0613">614 411 0613</a></div>
         <div class="branch"><h3>avenida Cantera</h3><a href="tel:+526143892690" aria-label="Llamar a sucursal avenida Cantera, 614 389 2690">614 389 2690</a></div>
@@ -311,8 +343,13 @@
         <div class="branch"><h3>Américas</h3><a href="tel:+526144138065" aria-label="Llamar a sucursal Américas, 614 413 8065">614 413 8065</a></div>
         <div class="branch"><h3>Sacramento</h3><p>Km. 31 a Majalca</p></div>
       </div>
+      <a class="map-cta" id="map-cta" href="https://www.google.com/maps/search/sucursales+gallito+ma%C3%B1anero/@28.6767329,-106.138916,12z?entry=ttu&amp;g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"><svg class="pin-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.6A2.6 2.6 0 1 1 12 6.4a2.6 2.6 0 0 1 0 5.2z"/></svg>ver sucursales en el mapa</a>
       <div class="footer-bottom"><span>El Gallito Mañanero</span><a href="#inicio">volver al menú</a></div>
     </div>
   </footer>
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-caption">
+    <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Cerrar foto">×</button>
+    <figure><img id="lightbox-img" src="data:," alt=""><figcaption id="lightbox-caption"></figcaption></figure>
+  </dialog>
 </body>
 </html>
