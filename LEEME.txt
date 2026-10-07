@@ -1,0 +1,15 @@
+EL GALLITO MAÑANERO — MENÚ DIGITAL
+
+1. Descomprime el archivo ZIP.
+2. Abre dist/index.html en tu navegador.
+
+No requiere instalar dependencias ni conexión a internet.
+
+Archivos para editar:
+- dist/index.html: nombres, descripciones y precios del menú.
+- dist/styles.css: colores, tipografía y diseño adaptable.
+- dist/menu.js: navegación entre categorías.
+- dist/assets/: logo y fuentes, con sus licencias.
+- dist/menu-data.json: transcripción de referencia; el menú visible se edita en index.html.
+
+Para alojarlo en un servicio web, publica el contenido de la carpeta dist.

@@ -1,0 +1,388 @@
+[
+  {
+    "title": "Desayunos",
+    "rows": [
+      [
+        "Huevos estrellados, divorciados o a la mexicana",
+        "$151",
+        "Acompañados de guisado al gusto, o chilaquiles verdes o rojos y frijoles."
+      ],
+      [
+        "Platillo saludable",
+        "$151",
+        "4 claras revueltas con nopales, ensalada verde y frijoles graneados."
+      ],
+      [
+        "Huevos rancheros; revueltos con chorizo, jamón, tocino, frijoles graneados, papas y cebolla, o nopales",
+        "$173",
+        "Acompañados de guisado al gusto, o chilaquiles verdes o rojos y frijoles."
+      ],
+      [
+        "Huevos estrellados con nuestra jugosa arrachera y frijolitos",
+        "$189"
+      ],
+      [
+        "Huevos revueltos con machaca a la mexicana; o con queso, pimiento, jamón y champiñones",
+        "$173",
+        "Acompañados de guisado al gusto, o chilaquiles verdes o rojos y frijoles."
+      ],
+      [
+        "Omelette de queso relleno con chicharrón de la Ramos",
+        "$189"
+      ],
+      [
+        "Omelette relleno de nuestra jugosa arrachera con queso",
+        "$189"
+      ],
+      [
+        "Huevos al gusto",
+        "$173",
+        "Acompañados de chile relleno, lomo, machaca o deshebrada natural."
+      ],
+      [
+        "Enmoladas",
+        "$177",
+        "2 huevos estrellados bañados con mole de la casa, acompañados de frijolitos."
+      ],
+      [
+        "Huevos montados en chilaquiles verdes o rojos",
+        "$194",
+        "Con frijoles y un guisado al gusto."
+      ],
+      [
+        "Huevos estrellados montados sobre 2 tortillas de harina en costra de queso",
+        "$199",
+        "Con chicharrón prensado de la Ramos y guisado a elegir."
+      ],
+      [
+        "Tacos de jugosa arrachera con costra de queso",
+        "$149",
+        "3 piezas, acompañados de guacamole y pico de gallo."
+      ],
+      [
+        "Tacos prensados con costra de queso",
+        "$149",
+        "3 piezas, con chicharrón de la Ramos."
+      ],
+      [
+        "Deliciosos chilaquiles acompañados de nuestra jugosa arrachera",
+        "$149"
+      ],
+      [
+        "Fruta de temporada",
+        "$99",
+        "Preparada con yogurt natural, granola y miel virgen."
+      ],
+      [
+        "Hot cakes",
+        "$99",
+        "Servidos con tocino."
+      ],
+      [
+        "Avena",
+        "$139",
+        "Con plátano, pan con mantequilla y los ingredientes de la casa."
+      ],
+      [
+        "Nuestra deliciosa barbacoa, 250 gramos",
+        "$250"
+      ]
+    ]
+  },
+  {
+    "title": "Nuestras tortas y algo más",
+    "rows": [
+      [
+        "Torta de huevo con chorizo",
+        "$109",
+        "Con mayonesa."
+      ],
+      [
+        "Torta de huevo con machaca",
+        "$109",
+        "A la mexicana, con mayonesa."
+      ],
+      [
+        "Torta de huevo a la mexicana",
+        "$109",
+        "Con mayonesa."
+      ],
+      [
+        "Torta de deshebrada o lomo",
+        "$127",
+        "Mayonesa, lechuga, tomate y aguacate."
+      ],
+      [
+        "Torta de chile relleno",
+        "$109",
+        "Mayonesa, lechuga, tomate y aguacate."
+      ],
+      [
+        "Torta especial de lomo o deshebrada",
+        "$144",
+        "Mayonesa, verdura, jamón y queso."
+      ],
+      [
+        "Torta de milanesa",
+        "$155",
+        "Mayonesa, lechuga, tomate, aguacate y queso."
+      ],
+      [
+        "Torta de barbacoa",
+        "$127",
+        "Lechuga, tomate, cebolla y cilantro."
+      ],
+      [
+        "Torta de chilaquiles verdes o rojos",
+        "$127",
+        "Frijoles, cebolla morada, crema, queso y aguacate."
+      ],
+      [
+        "Torta especial de chilaquiles con huevo estrellado",
+        "$144",
+        "Frijoles, cebolla morada, crema, queso y aguacate."
+      ],
+      [
+        "Mollete tradicional",
+        "$89"
+      ],
+      [
+        "Mollete con chorizo",
+        "$99"
+      ],
+      [
+        "Mollete ranchero",
+        "$145"
+      ],
+      [
+        "Molletes del gallo",
+        "$155",
+        "Con un guisado a elegir."
+      ],
+      [
+        "Quesadilla de maíz o harina",
+        "$79"
+      ],
+      [
+        "Sincronizada de maíz o harina",
+        "$84",
+        "Jamón, tomate y aguacate."
+      ],
+      [
+        "Menudo, domingos",
+        "$133",
+        "Orégano, limón, cebolla y pan."
+      ],
+      [
+        "Pozole de puerco",
+        "$133",
+        "Limón, repollo, rábano y pan."
+      ],
+      [
+        "Guisado extra",
+        "$73"
+      ],
+      [
+        "Chilaquiles extra",
+        "$72"
+      ],
+      [
+        "Para los peques",
+        "$89",
+        "Huevito con jamón y frijolitos, o deliciosos hot cakes con fruta."
+      ]
+    ]
+  },
+  {
+    "title": "Nuestros guisos",
+    "description": "Precios en pesos mexicanos. Cuando el menú muestra un precio por taco, se indica por unidad. El orden de precios es taco, burrito y montado.",
+    "rows": [
+      [
+        "Asado rojo o verde",
+        "Taco $39, burrito $79, montado $119"
+      ],
+      [
+        "Chicharrón",
+        "Taco $39, burrito $79, montado $119"
+      ],
+      [
+        "Deshebrada roja o verde",
+        "Taco $39, burrito $99, montado $129"
+      ],
+      [
+        "Papas con chorizo",
+        "Taco $39, burrito $79, montado $119"
+      ],
+      [
+        "Pasado",
+        "Taco $39, burrito $89, montado $119"
+      ],
+      [
+        "Rajas con queso",
+        "Taco $39, burrito $79, montado $119"
+      ],
+      [
+        "Picadillo",
+        "Taco $39, burrito $79, montado $119"
+      ],
+      [
+        "Bistec ranchero",
+        "Taco $39, burrito $97, montado $137"
+      ],
+      [
+        "Costilla verde o en salsa morita",
+        "Taco $39, burrito $97, montado $137"
+      ],
+      [
+        "Chicharrón de la Ramos",
+        "Taco $39, burrito $99, montado $137",
+        "Con frijol graneado."
+      ],
+      [
+        "Chile relleno",
+        "Burrito $89, montado $119"
+      ],
+      [
+        "Deshebrada natural",
+        "Taco $39, burrito $109, montado $139",
+        "Mayonesa, lechuga, tomate y aguacate."
+      ],
+      [
+        "Lomo",
+        "Taco $39, burrito $99, montado $139",
+        "Mayonesa, lechuga, tomate y aguacate."
+      ],
+      [
+        "Barbacoa",
+        "Taco $39"
+      ],
+      [
+        "Frijoles con queso",
+        "Burrito $69, montado $99"
+      ],
+      [
+        "Huevo con chorizo",
+        "Burrito $79, montado $119",
+        "Con mayonesa."
+      ],
+      [
+        "Huevo con machaca",
+        "Burrito $89, montado $119",
+        "Con mayonesa."
+      ],
+      [
+        "Huevo a la mexicana",
+        "Burrito $79, montado $119",
+        "Con mayonesa."
+      ],
+      [
+        "Huevo con papas y cebolla",
+        "Burrito $79, montado $119",
+        "Con mayonesa."
+      ],
+      [
+        "Huevo con jamón",
+        "Burrito $79, montado $119",
+        "Con mayonesa."
+      ]
+    ]
+  },
+  {
+    "title": "Bebidas",
+    "rows": [
+      [
+        "Café americano",
+        "$59",
+        "Taza con refill."
+      ],
+      [
+        "Café descafeinado",
+        "$59",
+        "Taza con refill."
+      ],
+      [
+        "Café de olla",
+        "$59",
+        "Taza."
+      ],
+      [
+        "Agua alcalina",
+        "$39",
+        "600 ml."
+      ],
+      [
+        "Leche",
+        "$39",
+        "455 ml."
+      ],
+      [
+        "Fuze tea",
+        "$39",
+        "355 ml."
+      ],
+      [
+        "Refrescos",
+        "$49",
+        "355 ml."
+      ],
+      [
+        "Limonada natural",
+        "$49",
+        "455 ml."
+      ],
+      [
+        "Limonada mineral",
+        "$59",
+        "455 ml."
+      ],
+      [
+        "Limonada sin azúcar",
+        "$49",
+        "455 ml."
+      ],
+      [
+        "Naranjada natural",
+        "$56",
+        "455 ml."
+      ],
+      [
+        "Naranjada mineral",
+        "$67",
+        "455 ml."
+      ],
+      [
+        "Chocolate caliente",
+        "$49",
+        "Taza."
+      ],
+      [
+        "Choco frío",
+        "$49",
+        "455 ml."
+      ],
+      [
+        "Jugo de manzana",
+        "$49",
+        "455 ml."
+      ],
+      [
+        "Jugos naturales",
+        "$59",
+        "455 ml. Naranja, zanahoria, betabel o verde."
+      ],
+      [
+        "Licuado de plátano",
+        "$49",
+        "455 ml."
+      ],
+      [
+        "Licuado de fresa",
+        "$59"
+      ],
+      [
+        "Agua del día",
+        "$49"
+      ]
+    ]
+  }
+]
